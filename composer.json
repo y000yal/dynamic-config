@@ -1,0 +1,26 @@
+{
+    "name": "geniussystems-np/dynamic-config",
+    "description": "create a dynamic config for your system",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GeniussystemsNp\\DynamicConfig\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yoyal.limbu",
+            "email": "yoyal.limbu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GeniussystemsNp\\DynamicConfig\\DynamicConfigServiceProvider.php"
+            ]
+        }
+    }
+}
